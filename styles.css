@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebebff;
+    flex-direction: column;
+  }
+  
+  .header {
+    height: auto;
+    justify-content: space-between;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+  }
+  
+  .logo {
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #6070ff;
+  }
+  
+  .menu {
+    margin-right: 19px;
+  }
+  
+  .HeadLine {
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    background-image: url(./h1.png);
+    background-repeat: no-repeat;
+  }
+  
+  .intro {
+    margin-left: 10%;
+    margin-top: 25%;
+    color: #172b4d;
+    font-size: 40px;
+    width: 70%;
+  }
+  
+  .para {
+    width: 85%;
+    margin-left: 10%;
+    font-size: 16px;
+    color: #344563;
+  }
+  
+  .connect {
+    color: #7f8cff;
+    margin-left: 10%;
+    font-weight: 500;
+  }
+  
+  .lets-connect {
+    margin-left: 10%;
+    margin-bottom: 16%;
+  }
