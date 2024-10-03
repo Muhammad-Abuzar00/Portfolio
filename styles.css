@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 body {
   display: flex;
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -36,7 +37,7 @@ main {
 }
 
 .HeadLine {
-  background-size: contain;
+  
   border-bottom-left-radius: 50px;
   background-color: #fff;
   width: 100%;
@@ -46,7 +47,7 @@ main {
 }
 
 .intro {
-  margin-left: 10%;
+  margin-left: 30px;
   margin-top: 25%;
   color: #172b4d;
   font-size: 40px;
@@ -54,32 +55,29 @@ main {
 }
 
 .para {
-  width: 85%;
-  margin-left: 10%;
+  width: 327px;
+  height: 146px;
+  margin-left: 30px;
   font-size: 16px;
   color: #344563;
+  margin-bottom: 0px;
 }
 
 .connect {
   color: #7f8cff;
-  margin-left: 10%;
+  margin-left: 30px;
   font-weight: 500;
   cursor: pointer;
-}
-
-.lets-connect {
-  margin-left: 10%;
-  margin-bottom: 16%;
-  cursor: pointer;
+  font-weight: bold;
 }
 
 .icon {
   display: flex;
-  width: 130px;
+  width: 170px;
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
   align-self: flex-start;
   cursor: pointer;
-  padding-left: 36px;
+  padding-left: 22px;
 }
