@@ -1,90 +1,85 @@
-
-
-
 body {
-    display: flex;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    background-color: #ebebff;
-    flex-direction: column;
-    width: 375px;
-    margin: 0;
-  }
-  
-  .header {
-    height: auto;
-    margin-left: 0;
-    justify-content: space-between;
-    background-color: #fff;
-    display: flex;
-    width: 100%;
- 
-  }
-  
-  .logo {
-    font-weight: 700;
-    margin-left: 10px;
-    font-size: 18px;
-    color: #6070ff;
-  }
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  background-color: #ebebff;
+  flex-direction: column;
+  width: 375px;
+  margin: 0;
+}
 
-    border-radius: 0 0 0 80px;
-  }
-  .menu {
-    justify-content: center;
-    margin-right: 22px;
-  }
-  
-  .HeadLine {
-    background-size:contain;
-    border-bottom-left-radius: 50px;
-    background-color: #fff;
-    width: 100%;
-    height: auto;
-    background-image: url("./h1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-  }
-  
-  .intro {
-    margin-left: 10%;
-    margin-top: 25%;
-    color: #172b4d;
-    font-size: 40px;
-    width: 70%;
-  }
-  
-  .para {
-    width: 85%;
-    margin-left: 10%;
-    font-size: 16px;
-    color: #344563;
-  }
-  
-  .connect {
-    color: #7f8cff;
-    margin-left: 10%;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  
-  .lets-connect {
-    margin-left: 10%;
-    margin-bottom: 16%;
-    cursor: pointer;
-  }
+.header {
+  height: auto;
+  margin-left: 0;
+  justify-content: space-between;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+}
 
-  .icon{
-    display: flex;
-    width: 130px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    align-self: flex-start;
-    cursor: pointer;
-    padding-left: 35px;
-  }
+.logo {
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 0 0 80px;
+}
+
+.menu {
+  justify-content: center;
+  margin-right: 22px;
+}
+
+.HeadLine {
+  background-size: contain;
+  border-bottom-left-radius: 50px;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  background-image: url("./h1.png");
+  background-repeat: no-repeat;
+}
+
+.intro {
+  margin-left: 10%;
+  margin-top: 25%;
+  color: #172b4d;
+  font-size: 40px;
+  width: 70%;
+}
+
+.para {
+  width: 85%;
+  margin-left: 10%;
+  font-size: 16px;
+  color: #344563;
+}
+
+.connect {
+  color: #7f8cff;
+  margin-left: 10%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.lets-connect {
+  margin-left: 10%;
+  margin-bottom: 16%;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  width: 130px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  align-self: flex-start;
+  cursor: pointer;
+  padding-left: 35px;
+}
